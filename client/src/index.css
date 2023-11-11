@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"], input[type="password"],
+input[type="email"],input[type="number"],
+input[type='tel']
+textarea{
+    @apply w-full border border-gray-300 rounded-xl p-2 my-2 ;
+
+}
+textarea{
+    height: 140px;
+}
+button.primary{
+    background-color: #F16D5B ;
+    @apply bg-primary p-3 w-full text-white rounded-2xl font-semibold
+}
